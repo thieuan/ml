@@ -1,3 +1,5 @@
+https://medium.com/@lachlanmiller_52885/machine-learning-week-1-cost-function-gradient-descent-and-univariate-linear-regression-8f5fe69815fd
+
 ## Modern definition:  
 "A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E."
 
@@ -29,3 +31,8 @@ One common function that is often used is mean squared error, look like
 ![MSE](https://cdn-images-1.medium.com/max/1600/1*20m_U-H6EIcxlN2k07Z7oQ.png) \
 We end up with:  
 ![hypothesis](https://cdn-images-1.medium.com/max/1600/1*VanG05Ab6yknqJ2bRGFzrQ.png)
+
+## Parameter learning
+### Gradient Descent
+![gradient descent](https://cdn-images-1.medium.com/max/1600/1*8Omixzi4P2mnqdsPwIR1GQ.png)
+
