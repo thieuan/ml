@@ -34,8 +34,8 @@ We end up with:
 
 ## Parameter learning
 ### Gradient Descent
-![gradient descent](https://cdn-images-1.medium.com/max/1600/1*8Omixzi4P2mnqdsPwIR1GQ.png)
+![gradient descent](https://cdn-images-1.medium.com/max/1600/1*8Omixzi4P2mnqdsPwIR1GQ.png) \
 *should use when number of feature > 10000
 ### Normal Equation
-![normal equation](https://t1.daumcdn.net/cfile/tistory/2627513758F8F57D04)
+![normal equation](https://t1.daumcdn.net/cfile/tistory/2627513758F8F57D04) \
 *should use when number of feature < 10000
