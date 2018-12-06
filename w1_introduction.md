@@ -37,5 +37,5 @@ We end up with:
 ![gradient descent](https://cdn-images-1.medium.com/max/1600/1*8Omixzi4P2mnqdsPwIR1GQ.png) \
 *should use when number of feature > 10000
 ### Normal Equation
-![normal equation](https://t1.daumcdn.net/cfile/tistory/2627513758F8F57D04) \
+![normal equation](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/dykma6dwEea3qApInhZCFg_333df5f11086fee19c4fb81bc34d5125_Screenshot-2016-11-10-10.06.16.png?expiry=1544227200000&hmac=pbctJHXMeUYqkXg_SjKaFj2bTL2rdJDPO-Ma37zWIEY) \
 *should use when number of feature < 10000
