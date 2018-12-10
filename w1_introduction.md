@@ -34,8 +34,8 @@ We end up with:
 
 ## Parameter learning
 ### Gradient Descent
-![gradient descent](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/MYm8uqafEeaZoQ7hPZtKqg_c974c2e2953662e9578b38c7b04591ed_Screenshot-2016-11-09-09.07.04.png?expiry=1544227200000&hmac=ytTlEdwHUEIMOM9tCsWAldIQ2VDOWVlHiJS55SNurZw) \
+![gradient descent](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/MYm8uqafEeaZoQ7hPZtKqg_c974c2e2953662e9578b38c7b04591ed_Screenshot-2016-11-09-09.07.04.png?expiry=1544572800000&hmac=lkM8_nytzl86xV9yKCq8qUICENKrkgiGDAPUWQoyoOk) \
 *should use when number of feature > 10000
 ### Normal Equation
-![normal equation](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/dykma6dwEea3qApInhZCFg_333df5f11086fee19c4fb81bc34d5125_Screenshot-2016-11-10-10.06.16.png?expiry=1544227200000&hmac=pbctJHXMeUYqkXg_SjKaFj2bTL2rdJDPO-Ma37zWIEY) \
+![normal equation](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/dykma6dwEea3qApInhZCFg_333df5f11086fee19c4fb81bc34d5125_Screenshot-2016-11-10-10.06.16.png?expiry=1544572800000&hmac=gTlPxBM-WSm4jnO96JfBO1EiU-9IkPo9gVVoAHZ1JM4) \
 *should use when number of feature < 10000
