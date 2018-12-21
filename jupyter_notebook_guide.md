@@ -1,5 +1,14 @@
+# Jupyter Notebook
 ## Download all folder
-
++ Terminal (New>Terminal)  
+```cmd
+rm -f ~/workspace.tar.gz 
+rm  -f ~/work/workspace.tar.gz
+tar -czf ~/workspace.tar.gz ~/work
+mv ~/workspace.tar.gz ~/work/workspace.tar.gz
+```
+In the root folder, download workspace.tar.gz  
++ Code
 ```python
 import os
 import tarfile
