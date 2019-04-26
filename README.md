@@ -32,5 +32,6 @@ pip install --ignore-installed --upgrade path_of_tensorflow_3.6
   
   
    
-  ***** thandongtb/learn-machine-learning-in-two-months
-  https://viblo.asia/p/phan-2-deep-learning-cho-chatbot-tao-mot-retrieval-based-model-chatbot-QpmleEDDlrd
+  ***** thandongtb/learn-machine-learning-in-two-months  
+  https://viblo.asia/p/phan-2-deep-learning-cho-chatbot-tao-mot-retrieval-based-model-chatbot-QpmleEDDlrd  
+  https://paperswithcode.com/sota
