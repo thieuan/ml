@@ -1,4 +1,7 @@
 # ML
+## Topic
+1. Good explain about machine learning: https://monkeylearn.com/blog/gentle-guide-to-machine-learning/
+
 ## Environment
 
 1. Python (3.6)  
