@@ -1,6 +1,7 @@
 # ML
 ## Topic
 1. Good explain about machine learning: https://monkeylearn.com/blog/gentle-guide-to-machine-learning/
+2. 10 best algorithm:https://towardsdatascience.com/ten-machine-learning-algorithms-you-should-know-to-become-a-data-scientist-8dc93d8ca52e
 
 ## Environment
 
