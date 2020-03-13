@@ -4,6 +4,7 @@
 2. 10 best algorithm:https://towardsdatascience.com/ten-machine-learning-algorithms-you-should-know-to-become-a-data-scientist-8dc93d8ca52e
 
 ## Environment
+https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html
 
 1. Python (3.6)  
 2. Anaconda  
