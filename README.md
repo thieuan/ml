@@ -6,6 +6,13 @@
 ## Environment
 Try this:
 https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html
+### Add Virtual Environment to Jupyter Notebook
+First, you need to activate your virtual environment. Next, install ipykernel which provides the IPython kernel for Jupyter:  
+pip install --user ipykernel  
+Next you can add your virtual environment to Jupyter by typing:  
+python -m ipykernel install --user --name=tensorflow_cpu  
+This should print the following:  
+Installed kernelspec myenv in /home/user/.local/share/jupyter/kernels/tensorflow_cpu    
 * if cerfification error: conda config --set ssl_verify no
 
 Or
