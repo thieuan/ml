@@ -4,8 +4,11 @@
 2. 10 best algorithm:https://towardsdatascience.com/ten-machine-learning-algorithms-you-should-know-to-become-a-data-scientist-8dc93d8ca52e
 
 ## Environment
+Try this:
 https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html
+* if cerfification error: conda config --set ssl_verify no
 
+Or
 1. Python (3.6)  
 2. Anaconda  
 https://www.anaconda.com/download/  
