@@ -19,27 +19,26 @@ This should print the following:
 ```ini
 Installed kernelspec myenv in /home/user/.local/share/jupyter/kernels/tensorflow_cpu    
 ```
-* if cerfification error: 
+Remove virtual environment from jupyter notebook.  
+First list up env
+```ini
+jupyter kernelspec list
+```
+It will show as:
+```ini
+Available kernels:
+  myenv      /home/user/.local/share/jupyter/kernels/tensorflow_cpu
+  python3    /usr/local/share/jupyter/kernels/python3
+```
+```ini
+jupyter kernelspec uninstall myenv
+```
+
+If there is some SSL certificate problems  
 ```ini
 conda config --set ssl_verify no
 ```
-https://janakiev.com/blog/jupyter-virtual-envs/
-Or
-1. Python (3.6)  
-2. Anaconda  
-https://www.anaconda.com/download/  
-https://repo.anaconda.com/archive/  (Anaconda3-5.2.0  for Python 3.6)  
-http://docs.anaconda.com/anaconda/user-guide/faq/#how-do-i-get-the-latest-anaconda-with-python-3-5  
-
-3. Install python 3.6 for latest anaconda  
-```ini
-conda install python=3.6  
-```
-4. Install tensorflow  
-```ini
-pip install --no-cache tensorflow  
-```
-If there is some SSL certificate problems  
+Then  
 + Alt - R: input %appdata%  
 + Create folder/file: pip/pip.ini  
 ```ini
@@ -48,16 +47,7 @@ trusted-host = pypi.org
 			files.pythonhosted.org
 			pypi.python.org
 ```
-conda create -n tensorflow_env python=3.6  
-conda activate tensorflow_env  
-conda install -c conda-forge tensorflow  
-
-*local  
-pip install --ignore-installed --upgrade path_of_tensorflow_3.6  
   
-  
-  
-   
   ***** thandongtb/learn-machine-learning-in-two-months  
   https://viblo.asia/p/phan-2-deep-learning-cho-chatbot-tao-mot-retrieval-based-model-chatbot-QpmleEDDlrd  
   https://paperswithcode.com/sota
