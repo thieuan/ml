@@ -3,6 +3,7 @@ It is an iterative optimization algorithm used in ML to find the best results (m
 Gradient means the rate of inclination of declination of a slope  
 Descent means the instance of descending  
 The algorithm is iterative means that we need to get the results multiple times to get the most optimal result. The iterative quality of the gradient descent helps a under-fitted graph to make the graph fit optimally to the data  
+![Grandient descent](/img/gradient.gif)
 The Gradient descent has a parameter called learning rate. As you can see above (left), initially the steps are bigger that means the learning rate is higher and as the point goes down the learning rate becomes more smaller by the shorter size of steps. Also,the Cost Function is decreasing or the cost is decreasing .Sometimes you might see people saying that the Loss Function is decreasing or the loss is decreasing, both Cost and Loss represent same thing (btw it is a good thing that our loss/cost is decreasing).  
 We need terminologies like epochs, batch size, iterations only when the data is too big which happens all the time in machine learning and we can’t pass all the data to the computer at once. So, to overcome this problem we need to divide the data into smaller sizes and give it to our computer one by one and update the weights of the neural networks at the end of every step to fit it to the data given.
 ## Epochs
@@ -12,7 +13,7 @@ Since one epoch is too big to feed to the computer at once we divide it in sever
 ### Why we use more than one Epoch?
 I know it doesn’t make sense in the starting that — passing the entire dataset through a neural network is not enough. And we need to pass the full dataset multiple times to the same neural network. But keep in mind that we are using a limited dataset and to optimise the learning and the graph we are using Gradient Descent which is an iterative process. So, updating the weights with single pass or one epoch is not enough.  
 *One epoch leads to underfitting of the curve in the graph (below).*
-
+![epoch leads to underfitting of the curve in the graph](/img/epoch_tuning.png)
 As the number of epochs increases, more number of times the weight are changed in the neural network and the curve goes from underfitting to optimal to overfitting curve.
 So, what is the right numbers of epochs?
 Unfortunately, there is no right answer to this question. The answer is different for different datasets but you can say that the numbers of epochs is related to how diverse your data is… just an example - Do you have only black cats in your dataset or is it much more diverse dataset?
