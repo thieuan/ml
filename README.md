@@ -33,8 +33,19 @@ Available kernels:
 ```ini
 jupyter kernelspec uninstall myenv
 ```
-
-If there is some SSL certificate problems  
+To deactive environment, type
+```ini
+conda deactive
+```
+To list all environments
+```ini
+conda env list
+```
+To remove an environment
+```ini
+conda env remove -n tensorflow_cpu
+```
+### If there is some SSL certificate problems  
 ```ini
 conda config --set ssl_verify no
 ```
