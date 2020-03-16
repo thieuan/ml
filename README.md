@@ -2,7 +2,7 @@
 ## Topic
 1. Good explain about machine learning: https://monkeylearn.com/blog/gentle-guide-to-machine-learning/
 2. 10 best algorithm:https://towardsdatascience.com/ten-machine-learning-algorithms-you-should-know-to-become-a-data-scientist-8dc93d8ca52e
-
+3. Good explaination about epoch, batch size: https://towardsdatascience.com/epoch-vs-iterations-vs-batch-size-4dfb9c7ce9c9?gi=40333542523b
 ## Environment
 Try this:
 https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html
