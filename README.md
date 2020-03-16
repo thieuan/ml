@@ -6,6 +6,36 @@
 ## Environment
 Try this:
 https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html
+### Install Anaconda Python 3.7
+
+Go to https://www.anaconda.com/download/  
+Download Anaconda Python 3.7 version for Windows  
+Run the downloaded executable (.exe) file to begin the installation. See here for more details.  
+(Optional) In the next step, check the box “Add Anaconda to my PATH environment variable”. This will make Anaconda your default Python distribution, which should ensure that you have the same default Python distribution across all editors.
+
+### TensorFlow Installation
+
+There exist two generic variants of TensorFlow, which utilise different hardware on your computer to run their computationally heavy Machine Learning algorithms.
+
+1. The simplest to install, but also in most cases the slowest in terms of performance, is TensorFlow CPU, which runs directly on the CPU of your machine.  
+2. Alternatively, if you own a (compatible) Nvidia graphics card, you can take advantage of the available CUDA cores to speed up the computations performed by TesnsorFlow, in which case you should follow the guidelines for installing TensorFlow GPU.
+
+#### TensorFlow CPU
+
+```ini
+conda create -n tensorflow_cpu pip python=3.6  
+activate tensorflow_cpu
+```
+Once you have activated your virtual environment, the name of the environment should be displayed within brackets at the beggining of your cmd path specifier, e.g.:  
+```ini
+(tensorflow_cpu) C:\Users\user>
+```
+```ini
+pip install --ignore-installed --upgrade tensorflow==1.14.0
+```
+
+#### TensorFlow GPU
+----
 ### Add Virtual Environment to Jupyter Notebook
 First, you need to activate your virtual environment. Next, install ipykernel which provides the IPython kernel for Jupyter:  
 ```ini
