@@ -88,7 +88,3 @@ trusted-host = pypi.org
 			files.pythonhosted.org
 			pypi.python.org
 ```
-  
-  ***** thandongtb/learn-machine-learning-in-two-months  
-  https://viblo.asia/p/phan-2-deep-learning-cho-chatbot-tao-mot-retrieval-based-model-chatbot-QpmleEDDlrd  
-  https://paperswithcode.com/sota
